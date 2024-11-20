@@ -1,0 +1,21 @@
+default_provider: animepahe 
+
+fzf:
+    executable: fzf
+    opts: []
+    state: true
+
+ffmpeg:
+    executable: ffmpeg
+    hls_download: false
+    submerge: true
+
+players:
+    iina:
+        executable: iina 
+    #    opts: [--start=#2, --end=#4]
+
+default_player: iina
+
+site_urls:
+    9anime: https://www.aniwave.to

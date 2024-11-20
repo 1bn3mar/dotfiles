@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set previewer ~/.config/lf/pv.sh
+map D delete
+
+cmd open ${{
+	case $(file --mime-type "$f" -b) in 
+	video/*) mpv --no-terminal "$f" & disown;;
+    audio/*) mpv "$f";;
+    application/vnd.rn-realmedia) mpv "$f";;
+    application/binary) "$f";;
+	text/*) vim "$f";;
+	esac
+}}
+
+set relativenumber
+set number
