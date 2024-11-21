@@ -1,46 +1,3 @@
-import = ["/.config/alacritty/alacritty.yml"]
-
-[colors.hints.end]
-background = "#1d1f21"
-foreground = "#e9ff5e"
-
-[colors.hints.start]
-background = "#e9ff5e"
-foreground = "#1d1f21"
-
-[colors.primary]
-background = "#004455"
-foreground = "#ff4444"
-
-[colors.search.bar]
-background = "#c5c8c6"
-foreground = "#1d1f21"
-
-[colors.search.focused_match]
-background = "#000000"
-foreground = "#ffffff"
-
-[colors.search.matches]
-background = "#ffffff"
-foreground = "#000000"
-
-[colors.vi_mode_cursor]
-cursor = "CellForeground"
-text = "CellBackground"
-
-[cursor]
-blink_interval = 750
-vi_mode_style = "None"
-
-[cursor.style]
-blinking = "On"
-shape = "Block"
-
-[font]
-size = 15.0
-
-[font.normal]
-family = "Menlo"
 
 [[keyboard.bindings]]
 action = "Paste"
@@ -510,6 +467,24 @@ key = "B"
 mode = "~Search"
 mods = "Command"
 
+[general]
+import = ["/.config/alacritty/catppuccin-mocha.toml"]
+
+
+[cursor]
+blink_interval = 750
+vi_mode_style = "None"
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Menlo"
+
 [scrolling]
 history = 100000
 
@@ -520,3 +495,5 @@ opacity = 0.5
 [window.dimensions]
 columns = 160
 lines = 51
+
+[keyboard]
