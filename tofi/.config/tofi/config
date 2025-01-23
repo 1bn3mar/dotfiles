@@ -2,7 +2,7 @@
 text-color = #cdd6f4
 prompt-color = #f38ba8
 selection-color = #f9e2af
-background-color = #1e1e2e
+background-color = #1e1e2eaa
 # Default config for tofi
 #
 # Copy this file to ~/.config/tofi/config and get customising!
@@ -18,7 +18,7 @@ background-color = #1e1e2e
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "Sans"
+	font = "firacode"
 
 	# Point size of text.
 	font-size = 24
@@ -120,6 +120,7 @@ background-color = #1e1e2e
 	# Style of the optional text cursor.
 	#
 	# Supported values: bar, block, underscore
+	text-cursor = true
 	text-cursor-style = bar
 
 	# Color of the text cursor
@@ -170,26 +171,26 @@ background-color = #1e1e2e
 ### Window theming
 #
 	# Width and height of the window. Can be pixels or a percentage.
-	width = 1280
-	height = 720
+	width = 70% 
+  height = 60%
 
 	# Window background color
-	background-color = #1B1D1E
+	#background-color = #1B1D1E
 
 	# Width of the border outlines in pixels.
-	outline-width = 4
+	outline-width = 0
 
 	# Border outline color
-	outline-color = #080800
+	outline-color = #f5e0dc
 
 	# Width of the border in pixels.
-	border-width = 2
+	border-width = 5
 
 	# Border color
-	border-color = #FFFFFF
+	border-color = #f38ba8ee
 
 	# Radius of window corners in pixels.
-	corner-radius = 0
+	corner-radius = 60
 
 	# Padding between borders and text. Can be pixels or a percentage.
 	padding-top = 8

@@ -1,10 +1,4 @@
 return {
-  "nvim-lualine/lualine.nvim",
-  config = function()
-    require("lualine").setup({
-      options = {
-       theme = "embark"
-      }
-    })
-  end
+  'nvim-lualine/lualine.nvim',
+  dependencies = { 'nvimtree/nvim-web-devicons' }
 }

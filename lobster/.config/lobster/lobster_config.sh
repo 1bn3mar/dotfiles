@@ -1,4 +1,4 @@
 history=1
-player=iina
+player=mpv
 lobster_editor=nvim
-provider=UpCloud
+provider=Vidcloud

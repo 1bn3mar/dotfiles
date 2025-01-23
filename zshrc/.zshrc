@@ -1,19 +1,21 @@
-#Auto complete:
+# Define history file and history size
 
-autoload -U compinit
-zstyle ':completion:*' menu select
-zmodload zsh/complist
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+
+# Auto complete:
+
+autoload -Uz compinit
 compinit
-_comp_options+=(globdots)
 
-#Vi mode
+# source antidote & initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
 
-bindkey -v
-export KEYTIMEOUT=1
+source /home/gm/.antidote/antidote.zsh
+antidote load
+eval "$(starship init zsh)"
 
-#Auto complete menu Use vi keys:
 
-bindkey -M menuselect 'h' vi-backward-char
-bindkey -M menuselect 'k' vi-up-line-or-history
-bindkey -M menuselect 'l' vi-forward-char
-bindkey -M menuselect 'j' vi-down-line-or-history
+# Created by `pipx` on 2024-12-30 05:16:35
+export PATH="$PATH:/home/gm/.local/bin"
+export ANKI_WAYLAND=1
