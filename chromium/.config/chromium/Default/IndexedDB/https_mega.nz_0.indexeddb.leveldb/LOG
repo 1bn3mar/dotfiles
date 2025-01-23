@@ -1,0 +1,6 @@
+2024/12/30-07:07:09.678 1aa7 Creating DB /home/gm/.config/chromium/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb since it was missing.
+2024/12/30-07:07:09.683 1aa7 Reusing MANIFEST /home/gm/.config/chromium/Default/IndexedDB/https_mega.nz_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/30-09:40:37.519 1aa8 Level-0 table #5: started
+2024/12/30-09:40:37.523 1aa8 Level-0 table #5: 96373 bytes OK
+2024/12/30-09:40:37.525 1aa8 Delete type=0 #3
+2024/12/30-09:40:37.526 1aa8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

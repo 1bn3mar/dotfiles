@@ -1,0 +1,6 @@
+2025/01/18-02:40:26.792 267d Reusing MANIFEST /home/gm/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/01/18-02:40:26.807 267d Recovering log #39
+2025/01/18-02:40:26.807 267d Reusing old log /home/gm/.config/discord/Local Storage/leveldb/000039.log 
+2025/01/18-02:45:17.869 267e Level-0 table #45: started
+2025/01/18-02:45:17.907 267e Level-0 table #45: 3319151 bytes OK
+2025/01/18-02:45:17.909 267e Delete type=0 #39

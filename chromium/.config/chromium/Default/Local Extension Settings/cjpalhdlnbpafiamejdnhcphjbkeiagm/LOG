@@ -1,0 +1,36 @@
+2025/01/19-19:16:08.769 1625 Reusing MANIFEST /home/gm/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2025/01/19-19:16:08.775 1625 Recovering log #299
+2025/01/19-19:16:08.778 1625 Reusing old log /home/gm/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000299.log 
+2025/01/19-19:17:08.299 1624 Level-0 table #303: started
+2025/01/19-19:17:08.436 1624 Level-0 table #303: 6242756 bytes OK
+2025/01/19-19:17:08.439 1624 Delete type=0 #299
+2025/01/19-19:17:08.442 1624 Compacting 4@0 + 3@1 files
+2025/01/19-19:17:08.479 1624 Generated table #304@0: 4 keys, 2386512 bytes
+2025/01/19-19:17:08.532 1624 Generated table #305@0: 8 keys, 2757291 bytes
+2025/01/19-19:17:08.589 1624 Generated table #306@0: 5 keys, 2693808 bytes
+2025/01/19-19:17:08.773 1624 Generated table #307@0: 2 keys, 4716927 bytes
+2025/01/19-19:17:08.789 1624 Generated table #308@0: 8 keys, 1130671 bytes
+2025/01/19-19:17:08.789 1624 Compacted 4@0 + 3@1 files => 13685209 bytes
+2025/01/19-19:17:08.793 1624 compacted to: files[ 0 5 5 0 0 0 0 ]
+2025/01/19-19:17:08.794 1624 Delete type=2 #298
+2025/01/19-19:17:08.794 1624 Delete type=2 #291
+2025/01/19-19:17:08.795 1624 Delete type=2 #290
+2025/01/19-19:17:08.795 1624 Delete type=2 #300
+2025/01/19-19:17:08.795 1624 Delete type=2 #296
+2025/01/19-19:17:08.795 1624 Delete type=2 #303
+2025/01/19-19:17:08.795 1624 Delete type=2 #289
+2025/01/19-19:17:08.812 1624 Compacting 1@1 + 1@2 files
+2025/01/19-19:17:08.862 1624 Generated table #309@1: 8 keys, 2757291 bytes
+2025/01/19-19:17:08.863 1624 Compacted 1@1 + 1@2 files => 2757291 bytes
+2025/01/19-19:17:08.865 1624 compacted to: files[ 0 4 5 0 0 0 0 ]
+2025/01/19-19:17:08.866 1624 Delete type=2 #305
+2025/01/19-19:17:08.866 1624 Delete type=2 #293
+2025/01/19-19:17:08.868 1624 Compacting 1@1 + 1@2 files
+2025/01/19-19:17:08.900 1624 Generated table #310@1: 6 keys, 2790776 bytes
+2025/01/19-19:17:08.901 1624 Compacted 1@1 + 1@2 files => 2790776 bytes
+2025/01/19-19:17:08.903 1624 compacted to: files[ 0 3 5 0 0 0 0 ]
+2025/01/19-19:17:08.904 1624 Delete type=2 #252
+2025/01/19-19:17:08.904 1624 Delete type=2 #306
+2025/01/23-06:24:17.792 162f Level-0 table #312: started
+2025/01/23-06:24:17.951 162f Level-0 table #312: 6560846 bytes OK
+2025/01/23-06:24:17.956 162f Delete type=0 #302

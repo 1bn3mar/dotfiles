@@ -1,0 +1,7 @@
+browser linkhandler
+macro , open-in-browser
+macro v set browser "mpv"; open-in-browser; set browser linkhandler
+
+# catppuccin Theme
+
+include ~/.config/newsboat/dark

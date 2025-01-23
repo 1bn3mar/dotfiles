@@ -1,0 +1,6 @@
+2024/12/25-03:10:26.675 501 Creating DB /home/gm/.config/chromium/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb since it was missing.
+2024/12/25-03:10:26.682 501 Reusing MANIFEST /home/gm/.config/chromium/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/25-03:13:47.863 502 Level-0 table #5: started
+2024/12/25-03:13:47.865 502 Level-0 table #5: 1279 bytes OK
+2024/12/25-03:13:47.867 502 Delete type=0 #3
+2024/12/25-03:13:47.868 502 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
