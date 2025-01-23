@@ -4,18 +4,80 @@
 # Inserts a blank line between shell prompts
 add_newline = true
 
-# Replace the '❯' symbol in the prompt with '➜'
-[character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+format = '''[┌───────────────────>](bold black)[ elMarionnettiste](bold black)
+[│](bold black)  (bold green) $battery $directory$rust$package
+[└─>](bold black) '''
 
-# Disable the package module, hiding it from the prompt completely
-#[package]
-#disabled = true
+[character]
+
+success_symbol = ''
 
 [battery]
-full_symbol = '🔋 '
-charging_symbol = '⚡️ '
-discharging_symbol = '💀 '
+full_symbol = ''
+charging_symbol = ''
+discharging_symbol = ''
+unknown_symbol = '󰂃'
+format = "[$symbol $percentage]($style)"
+
+[[battery.display]]
+threshold = 10
+charging_symbol = '󰢜'
+discharging_symbol = '󰁺'
+style = "bold red"
+
+[[battery.display]]
+threshold = 20
+charging_symbol = '󰂆'
+discharging_symbol = '󰁻'
+style = "bold yellow"
+
+[[battery.display]]
+threshold = 30
+charging_symbol = '󰂇'
+discharging_symbol = '󰁼'
+style = "bold yellow"
+
+[[battery.display]]
+threshold = 40
+charging_symbol = '󰂈'
+discharging_symbol = '󰁽'
+style = "bold yellow"
+
+[[battery.display]]
+threshold = 50 
+charging_symbol = '󰢝'
+discharging_symbol = '󰁾'
+style = "bold green"
+
+[[battery.display]]
+threshold = 60 
+charging_symbol = '󰂉'
+discharging_symbol = '󰁿'
+style = "bold green"
+
+[[battery.display]]
+threshold = 70 
+charging_symbol = '󰢞'
+discharging_symbol = '󰂀'
+style = "bold green"
+
+[[battery.display]]
+threshold = 80 
+charging_symbol = '󰂊'
+discharging_symbol = '󰂁'
+style = "bold green"
+
+[[battery.display]]
+threshold = 90 
+charging_symbol = '󰂋'
+discharging_symbol = '󰂂'
+style = "bold green"
+
+[[battery.display]]
+threshold = 100 
+charging_symbol = '󰂅'
+discharging_symbol = '󰁹'
+style = "bold green"
 
 # Set Nerd Font
 [aws]
@@ -104,7 +166,9 @@ symbol = " "
 
 [nodejs]
 symbol = " "
-[ocaml] symbol = " "
+
+[ocaml] 
+symbol = " "
 
 [os.symbols]
 Alpaquita = " "
