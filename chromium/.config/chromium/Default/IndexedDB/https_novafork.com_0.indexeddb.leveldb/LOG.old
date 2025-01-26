@@ -1,6 +1,0 @@
-2024/12/24-07:49:05.844 b83 Creating DB /home/gm/.config/chromium/Default/IndexedDB/https_novafork.com_0.indexeddb.leveldb since it was missing.
-2024/12/24-07:49:05.851 b83 Reusing MANIFEST /home/gm/.config/chromium/Default/IndexedDB/https_novafork.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/24-07:49:14.243 b84 Level-0 table #5: started
-2024/12/24-07:49:14.245 b84 Level-0 table #5: 1668 bytes OK
-2024/12/24-07:49:14.249 b84 Delete type=0 #3
-2024/12/24-07:49:14.250 b84 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,6 +1,0 @@
-2024/12/26-03:16:44.026 4bc Creating DB /home/gm/.config/chromium/Default/IndexedDB/https_chess.wintrcat.uk_0.indexeddb.leveldb since it was missing.
-2024/12/26-03:16:44.030 4bc Reusing MANIFEST /home/gm/.config/chromium/Default/IndexedDB/https_chess.wintrcat.uk_0.indexeddb.leveldb/MANIFEST-000001
-2024/12/26-03:17:26.588 4bd Level-0 table #5: started
-2024/12/26-03:17:26.590 4bd Level-0 table #5: 874 bytes OK
-2024/12/26-03:17:26.593 4bd Delete type=0 #3
-2024/12/26-03:17:26.593 4bd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
